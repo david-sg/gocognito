@@ -19,7 +19,6 @@ function buttonClicked(tab) {
         txt: "incognito"
     }
     chrome.tabs.sendMessage(tab.id, msg)
-        // alert('working?');
 }
 
 chrome.runtime.onMessage.addListener(({ action, url }) => {
