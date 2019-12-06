@@ -1,0 +1,23 @@
+{
+    "name": "gocognito",
+    "version": "1.0",
+    "description": "Google Chrome extension to open the current tab in incognito mode",
+    "license": "MIT",
+    "repository": "david-sg/gocognito",
+    "author": {
+        "name": "David Moskowitz"
+    },
+    "main": "extension/app.js",
+    "scripts": {
+        "lint": "standard",
+        "lint:fix": "standard --fix"
+    },
+    "standard": {
+        "globals": [
+            "chrome"
+        ]
+    },
+    "devDependencies": {
+        "standard": "^10.0.2"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Gocognito",
+    "description": "Google Chrome extension to open the current tab in incognito mode the icon is clicked",
+    "homepage_url": "https://github.com/david-sg/gocognito",
+    "manifest_version": 2,
+    "version": "1.1.1",
+    "icons": {
+        "128": "icon.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": [
+            "app.js"
+        ],
+        "run_at": "document_start"
+    }],
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png"
+    }
+
+}
