@@ -19,3 +19,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Icon image is from https://thenounproject.com/rose-alice-design
+* Code inspiration: https://github.com/francoischalifour/incognito-link
+* Video on how to make an extension: https://youtu.be/ew9ut7ixIlI
