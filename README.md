@@ -6,7 +6,11 @@ Chrome extension to open up the current tab in incognito mode
 If available, install directly from the google chrome store.
 Otherwise, download the .zip file, go to your extension tab, click on developer tools, and install the packed files.
 
+You can also download the extension directory (git clone) and install the unpacked files.
+
 Once running, click the extension icon, (eyeball) to got from the current tab in chrome to an incognito tab.
+## Feedback
+Feedback is welcome. This is my first chrome extension, and it solves a specific problem I have. If you have an idea for how it could be better, or used in a different way, please post it into the issues area of github.
 
 ## License
 
