@@ -22,3 +22,5 @@ SOFTWARE.
 
 
 Icon image is from https://thenounproject.com/rose-alice-design
+
+Portions of this project are held by François Chalifour, 2017 as part of "Incognito Link" and are provided under the MIT license.  https://github.com/francoischalifour/incognito-link
