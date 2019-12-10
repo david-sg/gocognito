@@ -7,6 +7,7 @@
  * Fired when the icon is clicked`.
  */
 
+
 console.log('background started')
 
 
