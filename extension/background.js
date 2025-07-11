@@ -12,8 +12,8 @@ console.log('background started')
 
 
 
-chrome.browserAction.onClicked.addListener(buttonClicked)
-
+// chrome.browserAction.onClicked.addListener(buttonClicked)
+chrome.action.onClicked(buttonClicked)
 function buttonClicked(tab) {
 
     let msg = {
