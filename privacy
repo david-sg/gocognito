@@ -1,0 +1,35 @@
+# Privacy Policy for Go Cognito Chrome Extension
+
+_Last updated: July 11, 2025_
+
+The **Go Cognito** Chrome Extension is designed to provide a single-click method to reopen the current browser tab in an incognito window. This extension respects your privacy and does not collect, transmit, or store any personal data.
+
+## Information We Collect
+
+**We do not collect any personal information.**
+
+- The extension does not store, log, or transmit your browsing history or data.
+- The only action taken is reading the URL of the currently active tab in order to reopen it in incognito mode.
+- No analytics or tracking tools are used.
+
+## Permissions
+
+The extension requests the following permissions:
+
+- `tabs`: To read the current tab’s URL and title.
+- `host_permissions` (`<all_urls>`): Required only to access the URL of the active tab.
+
+These permissions are strictly used to enable the extension's core functionality. No data is retained or shared.
+
+## Data Sharing
+
+We do **not** share any data with third parties.  
+No user data is transmitted off your device.
+
+---
+
+## Updates to This Policy
+
+We may update this Privacy Policy from time to time. Any changes will be posted on this page with a revised "Last updated" date.
+
+---
